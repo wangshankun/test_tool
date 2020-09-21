@@ -1,0 +1,534 @@
+@font-face { 
+font-family: "times";
+ 	src:url(FONT00000.ttf); }
+
+@font-face { 
+font-family: "TOPhonetic";
+ 	src:url(FONT00001.ttf); }
+
+@font-face { 
+font-family: "kingsoft";
+ 	src:url(XXXXXXXXXXXXXXXX); }
+
+
+
+/* 版权信息页标题 */
+h1.copyrightpage-title { 
+	font-weight: normal; 
+	text-align: center; 
+	border-style: none none dotted none;
+	border-width: 1.5px;
+	margin:1em 0em 1em 0em;
+}
+
+/* 版权信息页正文 */
+p.copyright-bodytext {
+	margin:2em;
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+}
+
+
+p{
+	margin:6pt 0;
+}
+
+
+/* 封面图像居中 */
+img.img-height100{
+	height:100%;
+}
+/* 封面框图像居中 */
+div.img-center{
+	text-align:center;
+	margin:0em 0em 0em 0em;
+	padding:0em;
+}
+div.img-center-1{
+	text-align:center;
+	margin:-1.2em 0em 0em 0em;
+	padding:0em;
+}
+/* 图像居右 */
+div.right{
+	text-align:right;
+	margin-top:-1em;
+	padding:0em;
+}
+
+img.yin{
+	width:35%;
+}
+
+/* 正文1 */
+p.bodytext-1 {
+text-indent: 2em;
+duokan-text-indent: 2em;
+
+}
+
+
+/* 目录标题 */
+h1.contents-title {
+	font-weight: normal;
+	border-style: none none dotted none;
+	border-width: 1.5px;
+	margin:1em 0em 1em 0em;
+	text-align:left;
+	text-indent: 0em;
+    duokan-text-indent: 0em;
+	
+
+}
+
+/* 目录页标题-一级 */
+div.contents-chapter-1 {
+	font-weight: bold;
+	margin-left:0.5em;
+}
+/* 目录页标题-二级 */
+div.contents-chapter-2 {
+	list-style-type:none;
+	font-weight: normal;
+	margin-left:2em;
+}
+/* 目录页标题-三级 */
+div.contents-chapter-3 {
+	list-style-type:none;
+	font-weight: normal;
+	margin-left:3em;
+}
+/* 一级标题（蓝色下划线）居右 */
+h1.chapter-one-xu{
+	margin-top:2em;
+	font-weight: normal; 
+	text-align: center; 
+	border-bottom:1px #0c78c4 solid;
+	width:50%;
+	margin:2em 0em 2em auto;
+	color:#0c78c4;
+	
+}
+/* 一级标题（蓝字-居中） */
+h1.chapter-one{
+	margin-top:2em;
+	font-weight: normal;
+	text-indent: 0em;
+	border-radius:1em;
+	margin:1em auto;
+    color:#0c78c4;
+	text-align:center;
+}
+
+/* 二级标题（圆角蓝底） */
+h2.chapter-two{
+	margin-top:2em;
+	font-weight: normal;
+	text-indent: 0em;
+	text-align:center;
+	background-color:#0c78c4;
+	width:18em;
+	padding-top:0.2em; 
+	padding-bottom:0.1em; 
+	border-radius:1em;
+	margin:1em auto;
+    color:#ffffff;
+}
+
+/* 二级标题（圆角蓝底） */
+h2.chapter-two-1{
+	margin-top:2em;
+	font-weight: normal;
+	text-indent: 0em;
+	text-align:center;
+	background-color:#0c78c4;
+	width:14em;
+	border-radius:1em;
+	margin:1em auto;
+    color:#ffffff;
+}
+
+/* 三级标题（圆角蓝底） */
+h3.chapter-three{
+	margin-top:2em;
+	font-weight: bold;
+	text-indent: 0em;
+	text-align:left;
+	margin:1em auto;
+    color:#0c78c4;
+}
+
+/* 三级标题（圆角蓝底）副本 */
+h3.chapter-two-1{
+	margin-top:2em;
+	font-weight: normal;
+	text-indent: 0em;
+	text-align:center;
+	background-color:#0c78c4;
+	width:5em;
+	border-radius:1em;
+	margin:1em auto;
+    color:#ffffff;
+}
+
+/* 四级标题(黑色居中) */
+h4.chapter-three{
+	margin-top:2em;
+	font-weight: normal;
+	text-indent: 0em;
+	text-align:center;
+	font-weight:bold;
+    color:#0c78c4;
+}
+
+/* 蓝底半圆小标题 */
+span.text-title{
+	width:6em;
+	background-color:#0c78c4;
+	color:white;
+	border-radius:0.2em 0.2em 0.2em 0.2em;
+	margin-top:2em;
+	margin-bottom:0.5em;
+}
+/* 单独页面 */
+div.dandu{
+font-size: 120%;
+margin-top:45%;
+text-align:center;
+}
+
+
+
+div.kuang {
+	padding: 0.5em;
+	border:3px double #0c78c4;
+	border-radius:0.6em 0.6em 0.6em 0.6em;
+	margin:3em 0em 3em 0em;
+}
+ /* 正文 */
+p.bodytext1 {
+	text-indent: 2em;
+	duokan-text-indent: 2em;
+}
+
+/* 正文 */
+p.bodytext {
+	text-indent: 2em;
+	duokan-text-indent: 2em;
+}
+
+
+span.bodytext{
+	font-family:"宋体";
+	font-weight:normal;
+}
+
+/* 引用-楷体（首行缩进） */
+p.content-yinyong{
+	font-family:"楷体";
+    text-indent: 2em;
+}
+
+
+
+/* 引用 */
+span.yinyong{
+	font-family:"楷体";
+}
+
+/* 数字 */
+p.shuzi {
+	text-align:right;
+	border-top:1px solid #0c78c4;
+	margin-bottom:-1em;
+}
+
+/* 数字 */
+span.shu{
+	color:white;
+	background-color:#0c78c4;
+}
+
+
+
+/* p图注中 */
+p.tuzhu-center{
+	font-family: "楷体";
+	text-align:center;
+}
+
+/* 图片100% */
+img.dafault100 {
+	width:100%;
+}
+/* 图片80% */
+img.dafault30 {
+	width:30%;
+}
+/* 图片80% */
+img.dafault12 {
+	width:12%;
+}
+/* 落款 */
+p.bodytext-right {
+	text-align:right;
+}
+
+/* 部分加粗 */
+span.jiacu {
+	font-weight:bold;
+}
+
+/* span蓝色字 */
+span.blue-title {
+	color:#0c78c4;
+}
+
+ 
+/* 音标 */
+span.yinbiao {
+	font-family: "times","kingsof","TOPhonetic";
+	
+	margin-left:0.5em;
+	font-size:0.8em;
+}
+/* 无符号列表 */
+ul{
+	list-style-type :none;
+	margin-left:2em;
+	text-indent:-2.5em;
+}
+/* 例，记，搭等前缀关键字 */
+span.juli{
+	margin-right:0.5em;
+	background-color:gray;
+	color:white;
+}
+
+
+/* 4个字-白底蓝边线（配合蓝色底纹用） */
+p.xiaozhan{
+	
+	border:1px #0c78c4 solid;
+	width:8em;
+	
+}
+/* 蓝色底纹 */
+div.diwen{
+	background:#66CCFF;
+	border-radius:1em 1em 0em 0em;
+
+}
+
+
+/* 例，记，搭等前缀关键字 */
+span.li{
+	margin-right:0.5em;
+	background-color:gray;
+	color:#66CCFF;
+}
+
+
+/* 下面点状线 */
+div.two{
+	border-bottom:2px gray dotted;
+}
+/* 灰底 */
+div.hui{
+	text-align:right;
+	margin-top:-1em;
+	padding:0em;
+}
+/* 圆形线框 */
+div.xian{
+	margin-left:2em;
+	margin-right:2em;
+	padding:1em;
+	border:1px solid;
+	border-radius:1em;
+}
+/* 蓝底半圆小标题 */
+p.text-title{
+	width:5em;
+	background-color:#0c78c4;
+	color:white;
+	border-radius:0em 0.5em 0.5em 0em;
+	margin-top:2em;
+	margin-bottom:0.5em;
+}
+/* 文内蓝色小标题（字大小20px） */
+p.word-title{
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+    border-top:1px solid #000000;
+	
+	font-size:120%;
+	font-weight:bold;
+}
+p.word-title1{
+	text-indent: 0em;
+	duokan-text-indent: 0em;
+}
+
+
+/* 文内蓝色小标题（字大小20px） */
+p.word-title1{
+    border-top: solid #000000;
+	
+	font-size:120%;
+}
+
+
+
+
+
+/* 文内蓝色小标题-居中（字大小22px） */
+p.word-title-center{
+	color:#00a0e9;
+	font-size:125%;
+	text-align:center;
+}
+
+
+/* 文内蓝色小标题（同正文字大小 ） */
+p.blue-titile{
+	color:#00a0e9;
+	margin:2em 0em 0em 0em;
+}
+
+span.strike{
+	text-decoration:none;
+	border-top:1px #0c78c4 dotted;
+	border-bottom:1px #0c78c4 dotted;
+	color:#0c78c4;
+	margin:2em 0em 1em 0em;
+	font-size:120%;
+}
+
+
+
+/* 小标题蓝色字 */
+p.bodytext11 {
+	color:#0c78c4;
+	text-indent: 2em;
+	font-weight:bold;
+}
+/* 小标题2缩进 */
+p.bodytext0 {
+	text-indent: 2em;
+	text-align:left;
+	margin-top:2em;
+    color:#0c78c4;
+}
+
+
+/* 近议词 */
+p.bodytext2 {
+
+	text-align:left;
+
+}
+
+/* 单词加粗 */
+p.kindle-cn-bold{
+	font-weight:bold;
+    color:#0c78c4;
+}
+
+
+/* 单词加粗+斜体 */
+p.kindle-cn-bold-italic{
+    font-style:italic;
+	text-indent: 2em;
+	duokan-text-indent: 2em;
+}
+
+/* 下划线 */
+span.underline {
+text-decoration:underline;
+}
+
+/* 音标小标题线框 */
+p.chapter-title-2 {
+	font-size:110%;
+	color:#0c78c4;
+	text-align: left;
+	duokan-text-indent: 0em;
+	text-indent: 0em;
+	margin-top:1em;
+	margin-bottom:1em;
+	padding-left: 0.5em;
+	padding-top:0.1em;
+	padding-bottom:0.1em;
+	background-color:#90d7ec;		
+}
+
+/* 造字 */
+img.zaozi{
+	height:0.6em;
+	vertical-align:middle;
+}
+
+/* 数字 */
+p.shuzi {
+	text-align:right;
+	border-top:1px solid #0c78c4;
+	margin-bottom:-2.5em;
+}
+
+/* 数字 */
+span.shu{
+	color:white;
+	background-color:#0c78c4;
+}
+
+/* 表格 */
+table.table {
+	font-weight: normal;
+margin: 1em auto 2em auto;
+    text-align:center;
+width:100%;
+}
+
+/* 表格 */
+td.cell {
+	text-align:left;
+	text-indent: 0em;
+	width:36%;
+}
+
+/* 表格 */
+td.cell1 {
+	text-align:left;
+	text-indent: 0em;
+	width:34%;
+}
+
+/* 表格 */
+td.cell2 {
+	text-align:left;
+	text-indent: 0em;
+	width:31%;
+}
+
+/** ----------------------------- **/
+/** 圆角框 **/
+/** ----------------------------- **/
+div.kindle-cn-frame-yuanjiao{
+	font-size: 1em;
+	padding: 0.5em;
+	margin: 1.5em 0em 1.5em 0em;
+	border-style: solid solid solid solid;
+	border-width: 1px;
+	border-radius: 0.5em;
+}
+/** ----------------------------- **/
+/** 知识点标题虚线文本框 **/
+/** ----------------------------- **/
+p.kindle-cn-frame-zsdtext2 {
+	padding-bottom: 0.2em;
+	font-size: 1em;
+	font-weight: bold;
+	text-indent: 0em;
+	border-bottom: solid 1px #666666;
+}
